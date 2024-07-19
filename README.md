@@ -1,1 +1,1 @@
-# Giovana.Pokedex-Sol-e-Lua
+# Giovana.Pokedex-Iniciais
