@@ -71,7 +71,7 @@ img {
 
 .stats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #404040;
     margin-top: 100px;
     width: 400px;
@@ -110,18 +110,21 @@ a {
     transition: margin 0.2s ease-in-out;
 }
 
-.fi{
+.fi {
     display: flex;
 }
-.fi1{
+
+.fi1 {
     margin-left: 10px;
     margin-right: 10px;
 }
-p1{
+
+p1 {
     margin-bottom: -25px;
     text-shadow: 0 0px 10px rgb(155 204 80 / 1.5);
 }
-p2{
+
+p2 {
     margin-bottom: -25px;
     text-shadow: 0 0px 10px rgb(185 127 201 / 1.5);
 }
