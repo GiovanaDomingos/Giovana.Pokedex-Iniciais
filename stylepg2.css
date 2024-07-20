@@ -9,5 +9,30 @@
     
 }
 body{
-    background-image: url(Imagens/Bg.png);
+    background-image: url(Imagens/bg.png);
+}
+
+.titulo {
+
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+img {
+    width: 250px;
+}
+.tudo{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #f2f2f2;
+    width: 1050px;
+   margin-top: 40px;
+   padding-bottom: 100px;
+   border-radius: 10px;
+   box-shadow: 0 3px 50px rgb(0 0 0 / 1.5);
+   
 }
