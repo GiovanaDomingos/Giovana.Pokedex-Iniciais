@@ -60,3 +60,68 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b63430;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.hidden {
+    transform: translateY(-100%);
+}
+
+nav button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #ddd;
+}
+
+#toggle-header-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#show-header-btn {
+    display: none; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #b63430;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#show-header-btn.show {
+    display: block; 
+}
+
